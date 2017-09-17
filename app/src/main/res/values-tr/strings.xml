@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pinq Edit</string>
+    <string name="action_load">Dosya Aç</string>
+    <string name="action_save_as">Farklı Kaydet</string>
+    <string name="action_save">Kaydet</string>
+    <string name="action_settings">Seçenekler</string>
+    <string name="cancel">İptal</string>
+    <string name="ok">Tamam</string>
+    <string name="save">Kaydet</string>
+    <string name="unnamed_file">isimsiz.cpp</string>
+    <string name="hello_world">Merhaba Dünya</string>
+    <string name="title_activity_settings">Seçenekler</string>
+    <string name="auto_save">Otomatik Kaydet</string>
+    <string name="readOnly">Dosya salt okunur</string>
+    <string name="NotFoundNotAuthorized">Dosya bulunamadı ya da erişim izni yok</string>
+    <string name="welcome">Pinq Edit v1\'e Hoşgeldiniz
+\nGeliştiren Arda Kara - pinq
+\nMevcut sürüm: Alpha v9
+\nNeler yeni
+\n-Alpha v
+\n-Daha iyi regex
+\n-Hata düzeltmesi
+\n-Alpha v8
+\n-Vurgulamalar için regex kullanımı
+ \n-Alpha v7
+ \n-Kod tamamlama
+ \n-Otomatik boşluk
+ \n-Hata düzeltmeleri
+ \n-Alpha v6
+ \n-Çoklu dosya
+ \n-\"Yeni\" seçeneği
+ \n-\"Kapat\" seçeneği
+ \n-Hata düzeltmeleri
+ \n-Alpha v5
+ \n-Daha iyi vurgulama
+ \n-Performans iyileştirmeleri
+\n-Alpha v4
+\n-xml\'den kod işaretlemelerinin okunması
+\n-Alpha v3
+\n-\"Kaydet\" seçeneği
+\n-\"Dosya Aç\" seçeneği
+\n-Kod vurgulamaları
+\n-Bazı hata düzeltmeleri
+\n-Alpha v2
+\n-Logo
+\n-\"Farklı Kaydet\" seçeneği
+\n-Hata düzeltmeleri
+\n-Alpha v1
+\n-Satır numaraları
+\n-Toplam satır:karakter
+\n-Saat</string>
+    <string name="error_write">Kaydedilemedi</string>
+    <string name="action_new">Yeni</string>
+    <string name="hello_blank_fragment">Merhaba boş fragman</string>
+    <string name="action_close">Kapat</string>
+    <string name="file">Dosya</string>
+    <string name="folder">Klasör</string>
+    <string name="home">Ana Dizin</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Highlight>
+	<Primitives>
+		<Word value="int"/>
+		<Word value="float"/>
+		<Word value="double"/>
+		<Word value="boolean"/>
+		<Word value="char"/>
+		<Word value="long"/>
+		<Word value="true"/>
+		<Word value="false"/>
+		<Word value="if"/>
+		<Word value="else"/>
+		<Word value="cast"/>
+		<Word value="for"/>
+		<Word value="do"/>
+		<Word value="while"/>
+		<Word value="super"/>
+		<Word value="void"/>
+		<Word value="public"/>
+		<Word value="private"/>
+	</Primitives>
+	
+	
+</Highlight>

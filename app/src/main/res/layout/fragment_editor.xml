@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <com.pinq.pinqedit.ScrollView.ObservableScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:nestedScrollingEnabled="true"
+    android:id="@+id/vertical_scroll">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/line_number"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:text="1\n2\n3"
+            android:gravity="top|right"
+            android:textColor="#ff878787"
+            android:background="#333366"
+            android:enabled="false"
+            android:padding="5dp"
+            android:textSize="14sp"/>
+
+        <com.pinq.pinqedit.ScrollView.ObservableHorizontalScrollView
+            android:layout_toRightOf="@id/line_number"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true"
+            android:nestedScrollingEnabled="true"
+            android:id="@+id/horizontal_scroll">
+
+
+            <EditText
+                android:id="@+id/editor"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:text="\n\n\n"
+                android:gravity="top"
+                android:textColor="#ffffff"
+                android:background="#000033"
+                android:scrollHorizontally="true"
+                android:scrollbars="horizontal"
+                android:fadeScrollbars="false"
+                android:padding="5dp"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="textNoSuggestions|textMultiLine"
+                android:singleLine="false"
+                android:textSize="14sp"/>
+
+        </com.pinq.pinqedit.ScrollView.ObservableHorizontalScrollView>
+    </LinearLayout>
+
+</com.pinq.pinqedit.ScrollView.ObservableScrollView>

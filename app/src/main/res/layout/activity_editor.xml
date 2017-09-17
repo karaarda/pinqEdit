@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".EditorActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_above="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:id="@id/status_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#333366">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/total_numbers"
+            android:text="Line:Char"
+            android:textColor="#ff878787"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clock"
+            android:text="22.22"
+            android:textColor="#ff878787"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

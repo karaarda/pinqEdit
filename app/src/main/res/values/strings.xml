@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Pinq Edit</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_save">Save</string>
+    <string name="action_save_as">Save as</string>
+    <string name="action_load">Open...</string>
+    <string name="action_close">close</string>
+    <string name="save">Save</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="unnamed_file">unnamed.cpp</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="auto_save">Auto Save</string>
+    <string name="NotFoundNotAuthorized">File is not found or not authorized to view</string>
+    <string name="readOnly">File is not editable</string>
+    <string name="error_write">Couldn\'t save file</string>
+
+    <string name="welcome">Welcome to Pinq Edit v1
+ \nDeveloped by Arda Kara - pinq
+ \nThis is Alpha v9
+ \nWhat\'s New
+ \n-Alpha v9
+ \n-Better regex
+ \n-Bug fixes
+ \n-Alpha v8
+ \n-Regex for highlighting
+ \n-Alpha v7
+ \n-Code compilation
+ \n-Auto intent
+ \n-Bug fixes
+ \n-Alpha v6
+ \n-Multiple files
+ \n-\"New\" option
+ \n-\"Close\" option
+ \n-Bug fixes
+ \n-Alpha v5
+ \n-Better highlighting
+ \n-Performance enchantments
+ \n-Alpha v4
+ \n-Load Highlights from xml
+ \n-Alpha v3
+ \n-\"Save\" option
+ \n-\"Load\" option
+ \n-Code Highlights
+ \n-Several bug fixes
+ \n-Alpha v2
+ \n-Logo
+ \n-\"Save as\" option
+ \n-Bug fixes
+ \n-Alpha v1
+ \n-Line numbers
+ \n-Total line:char
+ \n-Clock</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_new">New</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="file">File</string>
+    <string name="folder">Folder</string>
+    <string name="home">Home</string>
+</resources>
